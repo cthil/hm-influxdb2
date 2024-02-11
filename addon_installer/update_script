@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ADDONNAME=hm-influxdb
+ADDONNAME=hm-influxdb2
 CONFIG_DIR=/usr/local/etc/config
 ADDON_DIR=/usr/local/addons/${ADDONNAME}
 ADDONWWW_DIR=/usr/local/etc/config/addons/www
@@ -33,7 +33,7 @@ echo "[Installer]copying files " >>${LOGFILE}
 mkdir -p ${ADDONWWW_DIR}/${ADDONNAME}
 cp -af www/index.html ${ADDONWWW_DIR}/${ADDONNAME}
 cp -af www/update-check.cgi ${ADDONWWW_DIR}/${ADDONNAME}
-cp -af www/hm-influxdb-logo.png ${ADDONWWW_DIR}/${ADDONNAME}
+cp -af www/hm-influxdb2-logo.png ${ADDONWWW_DIR}/${ADDONNAME}
 
 echo "[Installer]copying launcher rc.d/${ADDONNAME} to ${RCD_DIR}" >>${LOGFILE}
 
@@ -54,7 +54,7 @@ npm install
 sync
 
 echo "[Startup]" >>${LOGFILE}
-/etc/config/rc.d/hm-influxdb start
+/etc/config/rc.d/hm-influxdb2 start
 
 exit 0
 

@@ -1,7 +1,7 @@
 #!/bin/tclsh
 
-set version_url "https://raw.githubusercontent.com/thkl/hm-influxdb/master/addon_installer/VERSION"
-set package_url "https://github.com/thkl/hm-influxdb/releases/latest"
+set version_url "https://raw.githubusercontent.com/cthil/hm-influxdb2/master/addon_installer/VERSION"
+set package_url "https://github.com/cthil/hm-influxdb2/releases/latest"
 
 catch {
   set input $env(QUERY_STRING)

@@ -4,7 +4,7 @@ const ConfigServer = require(path.join(__dirname, 'lib', 'configserver.js'))
 const InfluxLogger = require(path.join(__dirname, 'lib', 'influxlogger.js'))
 const HMInterface = require('hm-interface')
 
-let lfgPath = path.join('/', 'etc', 'config', 'addons', 'hm-influxdb')
+let lfgPath = path.join('/', 'etc', 'config', 'addons', 'hm-influxdb2')
 
 program.option('-D, --debug', 'turn on debug level logging', () => {
   HMInterface.logger.setDebugEnabled(true)

@@ -1,4 +1,7 @@
+config.json
 .vscode/*
 node_modules/*
 node_modules.nosync/*
 *.code-workspace
+addon_installer/*.tar.gz
+**/.DS_Store

@@ -14,6 +14,6 @@ cp -af ../lib tmp/js
 
 # generate archive
 cd tmp
-tar --exclude=._* --exclude=.DS_Store -czvf ../hm-influxdb-$(cat ../VERSION).tar.gz *
+tar --exclude=._* --exclude=.DS_Store -czvf ../hm-influxdb2-$(cat ../VERSION).tar.gz *
 cd ..
 rm -rf tmp
