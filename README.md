@@ -23,7 +23,7 @@ First setup the Influx DB 2 database:
 
 Setup the log source:
 * click on the ccu menu item
-* enter the host or ip of the CCU
+* enter the host or ip of the CCU (Attention: No authentification is made. So either run locally on the CCU, or disable authentification)
 * enther the buffer size (data points to collect before writing to the database)
 * the configure the data point filter:
 
