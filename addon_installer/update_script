@@ -33,7 +33,6 @@ echo "[Installer]copying files " >>${LOGFILE}
 mkdir -p ${ADDONWWW_DIR}/${ADDONNAME}
 cp -af www/index.html ${ADDONWWW_DIR}/${ADDONNAME}
 cp -af www/update-check.cgi ${ADDONWWW_DIR}/${ADDONNAME}
-cp -af www/hm-influxdb2-logo.png ${ADDONWWW_DIR}/${ADDONNAME}
 
 echo "[Installer]copying launcher rc.d/${ADDONNAME} to ${RCD_DIR}" >>${LOGFILE}
 

@@ -49,7 +49,7 @@ case "$1" in
 	;;
 
   info)
-	echo "Info: <center><b>Homematic Influx Logger</b><p style='margin-top: 5px;margin-bottom: 5px;'><img src='../addons/hm-influxdb2/hm-influxdb2-logo.png'></p></center>Logs Data to an influxdb2<br />"
+	echo "Info: <center><b>Homematic Influx Logger</b></center>Logs Data to an influxdb2<br />"
 	echo "Name: hm-influxdb2"
 	echo "Version: $VER"
 	echo "Operations: uninstall restart"
